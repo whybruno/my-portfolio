@@ -1,0 +1,43 @@
+/* :root {
+  --fs-025vw: 0.5vw;
+  --fs-050vw: 0.5vw;
+	--fs-100vw: 1vw;
+  --fs-150vw: 1.5vw;
+  --fs-200vw: 2vw;
+  --fs-300vw: 3vw;
+  --fs-400vw: 4vw;
+  --fs-500vw: 5vw;
+  --fs-600vw: 6vw;
+  --fs-700vw: 7vw;
+  --fs-800vw: 8vw;
+}
+
+.fs-01 {
+  font-size: 8dvw; 
+  letter-spacing: var(--fs-050vw);
+}
+
+.fs-02 {
+  font-size: var(--fs-400vw);
+  letter-spacing: var(--fs-050vw);
+}
+
+.fs-03 {
+  font-size: var(--fs-200vw);
+  letter-spacing: var(--fs-025vw);
+}
+
+.fs-04 {
+  font-size: var(--fs-100vw);
+  letter-spacing: var(--fs-025vw);
+}
+
+*/
+
+.spacing-05 {
+  letter-spacing: 0.5rem;
+}
+
+.spacing-10 {
+  letter-spacing: 1rem;
+}
