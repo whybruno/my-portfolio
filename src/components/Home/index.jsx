@@ -15,10 +15,10 @@ const Home = () => {
 			<div className="col-lg-8 mx-auto">
 				<h2 className="fs-6 fs-sm-4 mb-5">FRONT-END DEVELOPER</h2>
 				<div className="d-grid gap-2 d-sm-flex justify-content-sm-center">
-					<button type="button" className="btn btn-dark btn-sm px-4 gap-3"><img className="me-2" src={CubeOne} alt="" width="32" height="32" />Resume</button>
-					<button type="button" className="btn btn-dark btn-sm px-4"><img className="me-2" src={CubeTwo} alt="" width="32" height="32" />GitHub</button>
-					<button type="button" className="btn btn-dark btn-sm px-4"><img className="me-2" src={CubeThree} alt="" width="32" height="32" />LinkedIn</button>
-					<button type="button" className="btn btn-dark btn-sm px-4"><img className="me-2" src={CubeFour} alt="" width="32" height="32" />Hi, Bruno!</button>
+					<a href="https://drive.google.com/file/d/1lzJUOp3Lb_uEPJW_YmAY--1uOB9QQ8VA/view?usp=sharing" target="_blank" type="button" className="btn btn-dark btn-sm px-4 gap-3"><img className="me-2" src={CubeOne} alt="" width="32" height="32" />Resume</a>
+					<a href="https://github.com/whybruno/" type="button" className="btn btn-dark btn-sm px-4"><img className="me-2" src={CubeTwo} alt="" width="32" height="32" />GitHub</a>
+					<a href="https://www.linkedin.com/in/whybruno/" type="button" className="btn btn-dark btn-sm px-4"><img className="me-2" src={CubeThree} alt="" width="32" height="32" />LinkedIn</a>
+					<a href="mailto:whybruno.dev@gmail.com" type="button" className="btn btn-dark btn-sm px-4"><img className="me-2" src={CubeFour} alt="" width="32" height="32" />Hi, Bruno!</a>
 				</div>
 			</div>
 		</div>

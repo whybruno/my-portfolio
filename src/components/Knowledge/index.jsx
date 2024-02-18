@@ -1,17 +1,18 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './index.css';
 
 const Knowledge = () => {
   return (
     <main classNameName="container-fluid">
-      <section className="text-center">
+      <section className="text-center pt-5">
         <div className="row pt-5 px-5 px-md-0">
           <div className="col-lg-6 col-md-8 mx-auto">
             <h1 className="fw-bold">KNOWLEDGE</h1>
             <p className="lead text-muted">In this section you will find a summary of my skills and knowledge as a front-end developer. I am always looking to learn new technologies and improve my skills.</p>
             <h6 className="col-10 col-sm-8 mx-auto">If you are looking for a dedicated and passionate front-end developer, contact me!</h6>
             <p>
-              <a href="#" className="btn btn-dark my-2">Projects</a>
+              <Link to="/components/Projects" className="btn btn-dark my-2">Projects</Link>
             </p>
           </div>
         </div>

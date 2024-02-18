@@ -87,6 +87,16 @@ body {
   color: var(--color-3);
 }
 
+a {
+  text-decoration: none;
+  color: var(--color-1);
+}
+
+a:hover {
+  color: #FF4E00;
+  transition: color 0.3s ease;
+}
+
 /* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
