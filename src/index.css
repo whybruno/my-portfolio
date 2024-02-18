@@ -76,10 +76,11 @@
   --color-1: #000000;
   --color-2: #FFFFFF;
   --color-3: #B8FFA0;
+  --color-4: #FF4E00; 
 }
 
 body {
-  background-color: var(--color-1);
+  background-color: var(--color-2);
 }
 
 .color-3 {

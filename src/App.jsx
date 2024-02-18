@@ -10,10 +10,12 @@ import './App.css';
 function App() {
   return (
     <Router basename={'/my-portfolio'}>
-      {/* <NavBar /> */}
+      <NavBar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="projects" element={<Projects />} />
+        <Route path="knowledge" element={<Knowledge />} />
+        <Route path="contact" element={<Contact />} />
       </Routes>
     </Router>
   );
