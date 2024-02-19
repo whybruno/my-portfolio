@@ -1,47 +1,40 @@
 import React from 'react';
 import { Link, NavLink } from 'react-router-dom';
+import Button from 'react-bootstrap/Button';
+import Container from 'react-bootstrap/Container';
+import Form from 'react-bootstrap/Form';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import NavDropdown from 'react-bootstrap/NavDropdown';
 import './index.css';
 
 const NavBar = () => {
   return (
-    <nav className="navbar navbar-expand-sm navbar-dark bg-dark" aria-label="Third navbar example">
-      <div className="container-fluid">
-        <button
-          className="navbar-toggler ms-auto"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarsExample03"
-          aria-controls="navbarsExample03"
-          aria-expanded="false"
-          aria-label="Toggle navigation">
-          <span className="navbar-toggler-icon"></span>
-        </button>
-        <div className="collapse navbar-collapse" id="navbarsExample03">
-          <ul className="navbar-nav mx-auto gap-sm-3 mb-2 mb-sm-0">
-            <li className="nav-item">
-              <NavLink to='/' end className={({ isActive }) => isActive ? 'nav-link active' : 'nav-link'}>
-                HOME
-              </NavLink>
-            </li>
-            <li className="nav-item">
-              <NavLink to='knowledge' className={({ isActive }) => isActive ? 'nav-link active' : 'nav-link'}>
+    <Navbar expand="md" bg="dark" data-bs-theme="dark">
+      <Container fluid>
+        <Navbar.Toggle aria-controls="navbarScroll" />
+        <Navbar.Collapse id="navbarScroll">
+          <Nav
+            className="mx-auto gap-sm-3 my-3"
+            style={{ maxHeight: '180px' }}
+            navbarScroll
+          >
+            <NavLink to='/' end className={({ isActive }) => isActive ? 'nav-link active' : 'nav-link'}>
+              HOME
+            </NavLink>
+            <NavLink to='knowledge' className={({ isActive }) => isActive ? 'nav-link active' : 'nav-link'}>
                 KNOWLEDGE
-              </NavLink>
-            </li>
-            <li className="nav-item">
-              <NavLink to='projects' className={({ isActive }) => isActive ? 'nav-link active' : 'nav-link'}>
+            </NavLink>
+            <NavLink to='projects' className={({ isActive }) => isActive ? 'nav-link active' : 'nav-link'}>
                 PROJECTS
-              </NavLink>
-            </li>
-            <li className="nav-item">
-              <NavLink to='contact' className={({ isActive }) => isActive ? 'nav-link active' : 'nav-link'}>
+            </NavLink>
+            <NavLink to='contact' className={({ isActive }) => isActive ? 'nav-link active' : 'nav-link'}>
                 CONTACT
-              </NavLink>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+            </NavLink>
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
   );
 };
 
