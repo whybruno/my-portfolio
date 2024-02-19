@@ -1,0 +1,52 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "screenshot": "https://placehold.co/480x270",
+      "title": "HOME APP",
+      "description": "An App that uses APIs to get the latest rates, instant mortgage rate and interest numbers, and relevant housing market news.",
+      "githubUrl": "https://github.com/abbyedxcmk/home-app",
+      "githubDeploy": "https://abbyedxcmk.github.io/home-app"
+    },
+    {
+      "id": 2,
+      "screenshot": "https://placehold.co/480x270",
+      "title": "WEATHER FORECAST",
+      "description": "A Web App for you to check the current weather forecast and up to five days for any city in a simple and hassle-free way.",
+      "githubUrl": "https://github.com/whybruno/weather-forecast",
+      "githubDeploy": "https://whybruno.github.io/weather-forecast"
+    },
+    {
+      "id": 3,
+      "screenshot": "https://placehold.co/480x270",
+      "title": "TEAM PROFILE GENERATOR",
+      "description": "A powerful tool that makes it easy to create custom team profile pages via the command line, automating the process, saving time and effort.",
+      "githubUrl": "https://github.com/whybruno/team-profile-generator",
+      "githubDeploy": ""
+    },
+    {
+      "id": 4,
+      "screenshot": "https://placehold.co/480x270",
+      "title": "README GENERATOR",
+      "description": "A useful tool helping you quickly create informative and well-structured READMEs for your projects, right from the command line.",
+      "githubUrl": "https://github.com/whybruno/readme-generator",
+      "githubDeploy": ""
+    },
+    {
+      "id": 5,
+      "screenshot": "https://placehold.co/480x270",
+      "title": "WORKDAY SCHEDULER",
+      "description": "A Web App for you to organize your workday by hour, inserting some notes your way, which can be edited and cleaned whenever you want.",
+      "githubUrl": "https://github.com/whybruno/workday-scheduler",
+      "githubDeploy": "https://whybruno.github.io/workday-scheduler"
+    },
+    {
+      "id": 6,
+      "screenshot": "https://placehold.co/480x270",
+      "title": "PASSWORD GENERATOR",
+      "description": "Generate passwords between 8 and 128 characters, which can contain numbers, lowercase letters, uppercase letters and special characters.",
+      "githubUrl": "https://github.com/whybruno/password-generator",
+      "githubDeploy": "https://whybruno.github.io/password-generator"
+    }
+  ]
+}

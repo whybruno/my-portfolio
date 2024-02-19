@@ -24,13 +24,13 @@ const NavBar = () => {
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink to='projects' className={({ isActive }) => isActive ? 'nav-link active' : 'nav-link'}>
-                PROJECTS
+              <NavLink to='knowledge' className={({ isActive }) => isActive ? 'nav-link active' : 'nav-link'}>
+                KNOWLEDGE
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink to='knowledge' className={({ isActive }) => isActive ? 'nav-link active' : 'nav-link'}>
-                KNOWLEDGE
+              <NavLink to='projects' className={({ isActive }) => isActive ? 'nav-link active' : 'nav-link'}>
+                PROJECTS
               </NavLink>
             </li>
             <li className="nav-item">
