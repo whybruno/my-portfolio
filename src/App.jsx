@@ -3,14 +3,13 @@ import Contact from './components/Contact';
 import Header from './components/Header';
 import Home from './components/Home';
 import Knowledge from './components/Knowledge';
-import NavBar from './components/NavBar';
 import Projects from './components/Projects';
 import './App.css';
 
 function App() {
   return (
     <Router basename={'/my-portfolio'}>
-      <NavBar />
+      <Header />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="knowledge" element={<Knowledge />} />

@@ -4,7 +4,7 @@ import './index.css';
 
 const Knowledge = () => {
   return (
-    <main classNameName="container-fluid">
+    <main className="container-fluid">
       <section className="text-center">
         <div className="row pt-5 px-5 px-md-0">
           <div className="col-lg-6 col-md-8 mx-auto">
