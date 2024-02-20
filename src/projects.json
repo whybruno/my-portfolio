@@ -2,7 +2,7 @@
   "projects": [
     {
       "id": 1,
-      "screenshot": "",
+      "screenshot": "https://github.com/whybruno/my-portfolio/blob/main/src/assets/images/screenshots/home-app.gif?raw=true",
       "title": "HOME APP",
       "description": "An App that uses APIs to get the latest rates, instant mortgage rate and interest numbers, and relevant housing market news.",
       "githubUrl": "https://github.com/abbyedxcmk/home-app",
